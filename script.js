@@ -7,6 +7,10 @@ let quotes = ['My mother always used to say: The older you get, the better you g
 
 btn.addEventListener('click', function() {
 
+    const randomIndex = Math.floor(Math.random() * quotes.length)
+
+    quotesplace.innerText = quotes[randomIndex];
+
     
 })
 

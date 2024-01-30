@@ -10,9 +10,19 @@ body {
     width: 550px;
     border: solid 2px ;
     box-shadow: 3px 13px, 10px 10px;
+    font-size: 2em;
+    padding: 24px;
+    position: relative;
+    text-align: center;
 }
 
 .container:hover {
     
 
+}
+
+button {
+    width: 75%;
+    padding: 24px;
+    bottom: 0px;
 }
